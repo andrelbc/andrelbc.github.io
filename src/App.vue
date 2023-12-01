@@ -5,15 +5,11 @@ import Navigation from "./components/Navigation.vue";
 </script>
 
 <template>
-  <header>
-    <nav>
-      <Navigation />
-    </nav>
+  <header class="primary-header">
+    <Navigation />
   </header>
 
   <RouterView />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
